@@ -1,0 +1,132 @@
+/*añado las fuentes a utilizar*/
+@font-face {
+    font-family: Pokemon solid;
+    src: url(Fonts/Pokemon\ Solid.ttf);
+}
+@font-face {
+    font-family: Pokemon hollow;
+    src: url(Fonts/Pokemon\ Hollow.ttf);
+}
+
+/*universal*/
+body{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    margin:0px;
+}
+.pasto{background: url(IMG/pasto.png);}
+.pasto-2{background: url(IMG/pasto-2.png);}
+.camino{background: url(IMG/camino.png);}
+.tierra{background: url(IMG/tierra.png);}
+.piedra{background: url(IMG/piedra.png);}
+.poke-solid{
+    font-family: Pokemon solid;
+    color:yellow;
+    text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+}
+.p-ball{background: url(IMG/ball.png) center; background-size: cover;}
+.s-ball{background: url(IMG/S-ball.png) center; background-size: cover;}
+.u-ball{background: url(IMG/U-ball.png) center; background-size: cover;}
+.poke{
+    background: url(IMG/poke.jpg) center;
+    background-size: cover;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+.master{
+    background: url(IMG/master.png) center;
+    background-size: cover;
+    text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+/*primer pantalla*/
+.intro{
+    background: url(IMG/bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 1.1em;
+}
+.reglas{
+    margin: 2%;
+    width: 46%;
+    height: 70%;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    overflow-y: auto;
+}
+.reglas li{
+    margin:auto;
+    float: left;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.reglas h1{
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-decoration: underline;
+}
+table{
+    margin:2%;
+    width: 46%;
+    height: 94%;
+    float: left;
+    font-weight: bold;
+}
+table, th, td{
+    border: 1px solid #000;
+}
+.comienzo{
+    height: auto;
+}
+.inicio{
+    width: 12%;
+    margin: auto;
+}
+.inicio button{
+    background: url(IMG/ball.jpg) center;
+    background-size: cover;
+    width: 100%;
+    height: 5vw;
+    font-size: 1.6vw;
+    text-align: center;
+    border-radius: 1.4vw;
+}
+.inicio p, .dific button p{
+    margin: -7px 0px 0px 0px;
+}
+
+
+/*Segunda pantalla*/
+.juego{
+    width: 100%;
+    bottom: 0px;
+    top: 0px;
+    position: absolute;
+}
+.game-part1{
+    background: url(IMG/bg-game.gif) no-repeat center;
+    background-size: cover;
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+.game-part2{
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+.cual-poke{
+    background: rgb(0, 0, 0, 0.3);
+    text-align: center;
+    text-shadow: 5px 5px 15px blue;
+    font-size: 2.5vw;
+    width: 78%;
+    margin: 2.5vw auto;
+    border-radius: 1.5vw;
+}
